@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+.widefat {
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.widefat * {
+	word-wrap: break-word;
+}
+
+.widefat a {
+	text-decoration: none;
+}
+
+.widefat td,
+.widefat th {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	font-size: 11px;
+	vertical-align: text-top;
+}
+
+.widefat td {
+	padding: 7px 7px 5px;
+	vertical-align: top;
+}
+
+.widefat thead tr th:first {
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-khtml-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.widefat thead tr th:last {
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-khtml-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.widefat tfoot tr th:first {
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-khtml-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.widefat tfoot tr th:last {
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-khtml-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.widefat td p {
+	font-size: 11px;
+}
+
+.widefat th {
+	padding: 7px 7px 8px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.widefat th input {
+	margin: 0 0 0 8px;
+	padding: 0;
+	vertical-align: text-top;
+}
+
+.widefat .check-column {
+	width: 2.2em;
+	padding: 0;
+
+}
+
+.widefat tbody th.check-column {
+	padding: 7px 0 22px;
+}
+
+.widefat .num,
+.column-comments,
+.column-links,
+.column-posts,
+.column-parent {
+	text-align: center;
+}
+
+.widefat th#comments {
+	vertical-align: middle;
+}
+
+.widefat {
+	border-color: #dfdfdf;
+	background-color: #fff;
+}
+
+.widefat td,
+.widefat th {
+	border-color: #dfdfdf;
+}
+
+.widefat th {
+	text-shadow: rgba(255,255,255,0.8) 0 1px 0;
+}
+
+.widefat thead tr th,
+.widefat tfoot tr th{
+	color: #333;
+	background: #dfdfdf url(../images/gray-grad.png) repeat-x scroll left top;
+}
+
+.active{background-color: #e7f7d3;}
