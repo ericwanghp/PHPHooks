@@ -11,8 +11,7 @@
 
 .. image:: http://phphooks.googlecode.com/files/hooks-plugins.png
 
-PHP Hooks API is a way to load the plug-in scripts through hook which is embedded in main program. This API can be used to setup and embed third party Plugins in main code streaming just like how it is done by `Wordpress Plugin AP`_
-.. _`Wordpress Plugin AP`:  http://www.ubuntu.org.cn/
+PHP Hooks API is a way to load the plug-in scripts through hook which is embedded in main program. This API can be used to setup and embed third party Plugins in main code streaming just like how it is done by `Wordpress Plugin AP`Here <http://codex.wordpress.org/Plugin_API>`_ .
 
 
 
