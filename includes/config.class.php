@@ -119,7 +119,7 @@ class config {
 			while ( $s1 < $s ) {
 				if ($c [$s1] != null) {
 					$exp = explode ( "=", $c [$s1] );
-					$exp = array_map ( trim, $exp );
+					$exp = array_map ( 'trim', $exp );
 					$c1 [$exp [0]] = $exp [1];
 				} #end if
 				$s1 ++;

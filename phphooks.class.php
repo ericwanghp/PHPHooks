@@ -182,7 +182,7 @@ class phphooks {
 	 * @param string $tag The name of the hook.
 	 */
 	function hook_exist($tag) {
-		return (trim ( $this->hooks [$tag] ) == "") ? false : true;
+		return (isset(  $this->hooks [$tag] ) && is_array( $this->hooks [$tag]));
 	}
 	
 	/**
@@ -200,12 +200,12 @@ class phphooks {
 			for($i = 0; $i <= 20; $i ++) {
 				if (isset ( $these_hooks [$i] )) {
 					foreach ( $these_hooks [$i] as $hook ) {
-						$args [] = $result;
+						if (isset($result)) $args [] = $result;
 						$result = call_user_func ( $hook, $args );
 					}
 				}
 			}
-			return $result;
+			if (isset($result)) return $result;
 		} else {
 			die ( "There is no such place ($tag) for hooks." );
 		}
@@ -239,7 +239,7 @@ class phphooks {
 	}
 	
 	/**
-	 * register plugin data in $this->plugin
+	 * register plugin data in $this->plugins
 	 * @package phphooks
 	 * @since 1.0
 	 * 

@@ -102,7 +102,7 @@ about these, contact your host.</p>
 	
 	case 2 :
 		
-		$post = array_map ( trim, $_POST );
+		$post = array_map ( 'trim', $_POST );
 		extract ( $post );
 		
 		display_header ();
@@ -133,7 +133,7 @@ about these, contact your host.</p>
 		$db->close ();
 		?>
 <p>All right sparky! You've made it through this part of the
-installation. Now the IPN recorder database has been created. If you are
+installation. Now the plugin system database has been created. If you are
 ready, time now to&hellip;</p>
 
 <p class="step"><a href="control.php" class="button">Go To Control Panel</a></p>
