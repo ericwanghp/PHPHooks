@@ -36,12 +36,12 @@ Here is a example to illustrate how to use the plugin system.
 
 **control.php:** is a example of plugins control panel, you can manage the plugins dis/activity by backend.
 
-**init.php:** is a initializing process to
- include phphooks class and create instance
- fetch the active plugins list from DB
- set/define hooks
- load/define plugin folder
- re-define functions for plugins
+**init.php:** is a initializing process to::
+   include phphooks class and create instance
+   fetch the active plugins list from DB
+   set/define hooks
+   load/define plugin folder
+   re-define functions for plugins
 
 **example.php:** The example page to attach plugins which are stored in plugin folder by applying hooks.
 
