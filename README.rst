@@ -28,7 +28,8 @@ PHP Hooks API is a way to load the plug-in scripts through hook which is embedde
 
 
 2. How To Do
-£½£½£½£½£½£½£½£½£½£½£½£½£½£½£½£½£½
+===============
+
 Here is a example to illustrate how to use the plugin system.
 
 **setup.php:** creating the database of plugin system by providing DB informatin properly, if you need to manage plugins by backend.
