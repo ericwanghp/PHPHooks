@@ -32,11 +32,11 @@ Here is a example to demostrate how to use the plugin system.
 
 **init.php:** is a initiate process to
 
-*include phphooks class and create instance
-*fetch the active plugins list from DB
-*set/define hook tags
-*load/define plugin folder
-*re-define functions for plugins
+* include phphooks class and create instance
+* fetch the active plugins list from DB
+* set/define hook tags
+* load/define plugin folder
+* re-define functions for plugins
 
 **example.php:** The example page demostrate to attach the specific plugin that's stored in `plugins` folder by applying hook in the main program.
 
