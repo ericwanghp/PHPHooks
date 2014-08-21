@@ -6,10 +6,9 @@ License: http://www.gnu.org/copyleft/lesser.html LGPL
 
 #0. What's this?
 
-![](https://github.com/ericwanghp/PHPHooks/blob/develop/phphooks.png)
-
 PHP Hooks API is a solution to attach plug-in scripts into the specified `hook` that is embedded in main codes. This API can be used to setup and embed `third party's plugins` in main code streaming, just like how it is done by [Wordpress Plugin API](http://codex.wordpress.org/Plugin_API).
 
+![](https://github.com/ericwanghp/PHPHooks/blob/develop/phphooks.png)
 
 #1. Terminology
 
