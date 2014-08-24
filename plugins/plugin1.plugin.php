@@ -2,24 +2,12 @@
 
 /*
 Plugin Name: Plugin1
-Plugin URI: http://code.google.com/p/phphooks/source/browse/trunk/plugins/plugin1.plugin.php
+Plugin URI: https://github.com/ericwanghp/PHPHooks/blob/master/plugins/plugin1.plugin.php
 Description: This is plugin1
-Version: 1.0
-Author: Eric Wang
-Author URI: http://www.ericbess.com/
+Version: 1.1
+Author: Eric Wang ZhengYu
+Author URI: http://wangzhengyu.com/
 */
-
-
-//set plugin id as file name of plugin
-$plugin_id = basename(__FILE__);
-
-//some plugin data
-$data['name'] = "First plugin";
-$data['author'] = "eric wang";
-$data['url'] = "http://www.ericbess.com/";
-
-//register plugin data
-register_plugin($plugin_id, $data);
 
 //plugin function
 function plugin1_testfunc() {

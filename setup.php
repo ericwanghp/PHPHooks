@@ -50,7 +50,7 @@ go!</a></p>
 		?>
 <form method="post" action="setup.php?step=2">
 <p>Below you should enter your configuration details. If you're not sure
-about these, contact your host.</p>
+about these, contact your host provider.</p>
 <table class="form-table">
 	<tr>
 		<th scope="row"><label for="dbname">Database Name</label></th>
@@ -82,7 +82,7 @@ about these, contact your host.</p>
 			value="<?php
 		echo $mysql_db_host;
 		?>" /></td>
-		<td>Host address, 99% chance you won't need to change this value.</td>
+		<td>Database host address.</td>
 	</tr>
 	<tr>
 		<th scope="row"><label for="prefix">Table Prefix</label></th>

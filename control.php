@@ -89,7 +89,7 @@ foreach ( $plugin_headers as $plugin_header ) {
 			<td class='desc'>
 				<p class="nopadbot"><?php
 	echo $plugin_header ['Description'];
-	?>By <a href="<?php
+	?> by <a href="<?php
 	echo $plugin_header ['AuthorURI'];
 	?>"
 						title="Visit author homepage"><?php

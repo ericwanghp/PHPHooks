@@ -13,12 +13,10 @@ $db = new Database ( $mysql_db_host, $mysql_db_user, $mysql_db_passwd, $mysql_db
 $db->connect ();
 $sql = "SELECT filename FROM " . $table_prefix . "plugins WHERE action = '" . $db->escape ( 1 ) . "'";
 $result_rows = $db->fetch_all_array ( $sql );
-foreach ( $result_rows as $result_rows )
-	$plugins [] = $result_rows ['filename'];
-	
-//unset means load all plugins in the plugin fold. set it, just load the plugins in this array.
-$hook->active_plugins = $plugins;
 
+foreach ( $result_rows as $result_rows )
+	$hook->active_plugins[] = $result_rows ['filename'];
+	
 //set hook to which plugin developers can assign functions
 $hook->set_hook ( 'test' );
 

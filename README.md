@@ -1,7 +1,7 @@
   PHP Hooks API, A plugin system solution with PHP
 ==========================================================
 
-Version: 1.1 <br/>
+Version: 1.2 <br/>
 License: http://www.gnu.org/copyleft/lesser.html LGPL
 
 #0. What's this?
@@ -44,5 +44,5 @@ Here is a example to demostrate how to use the plugin system.
 **phphooks.class.php** phphooks class,  is core class of this system. include it if you want to use this system in your program.
 
 #3. Donate to PHPHooks
-[![paypal]](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=eric%2ewzy%40gmail%2ecom&lc=US&item_name=Donate%20to%20PHP%20Hooks&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
+[![paypal]](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=eric%2ewzy%40gmail%2ecom&lc=US&item_name=Donate%20to%20PHPHooks&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
 [paypal]:https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Donate to PHPHooks"

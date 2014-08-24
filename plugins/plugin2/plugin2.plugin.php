@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Plugin2
-Plugin URI: http://code.google.com/p/phphooks/source/browse/trunk/plugins/plugin2/plugin2.plugin.php
+Plugin URI: https://github.com/ericwanghp/PHPHooks/blob/master/plugins/plugin2/plugin2.plugin.php
 Description: This is plugin2
-Version: 1.0
-Author: Eric Wang
-Author URI: http://www.ericbess.com/
+Version: 1.1
+Author: Eric Wang ZhengYu
+Author URI: http://www.wangzhengyu.com/
 */
 /*
  * a Class Structure to design plugin.
@@ -16,14 +16,6 @@ Author URI: http://www.ericbess.com/
  * To avoid naming collisions, it is imperative that all plugins incorporate a PHP class structure. 
  * Here is some example code that will allow you to set up a class structure.
  */
-$plugin_id = basename(__FILE__);
-
-$data['name'] = "Second plugin";
-$data['author'] = "Eric Wang";
-$data['url'] = "http://www.ericbess.com/";
-
-//register plugin data
-register_plugin($plugin_id, $data);
 
 class plugin2 {
 	function plg2() {
